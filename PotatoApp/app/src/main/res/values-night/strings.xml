@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Potato App</string>
     <string name="str_helper">Foto daun kentang yang ingin di scan, atau pilih satu gambar daun kentang yang ingin discan</string>
     <string name="str_appName">Aplikasi Pendeteksi Penyakit Tanaman Kentang</string>
     <string name="str_ambilPhoto">Ambil Photo</string>
