@@ -43,6 +43,5 @@ def detect(request):
     print("Detections:",detections)
 
     detected_class = class_names[np.argmax(detections[0])]
-    confidence = round(100 * (np.max(detections[0])), 2)
 
-    return {"class": detected_class, "confidence": confidence}
+    return {"class": detected_class}
