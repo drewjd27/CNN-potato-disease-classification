@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:padding="16dp"
     android:theme="@style/AppTheme"
-    tools:context=".MainActivity">
+    tools:context=".ui.view.MainActivity">
 
     <TextView
         android:id="@+id/h1"
@@ -16,13 +16,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/poppins_bold"
-        android:text="@string/str_appName"
+        android:text="Aplikasi Pendeteksi Penyakit Tanaman Kentang"
         android:textAlignment="center"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/objectImage"
@@ -30,7 +29,7 @@
         android:layout_height="250dp"
         android:layout_marginTop="32dp"
         android:contentDescription="Input Image"
-        android:scaleType="fitCenter"
+        android:scaleType="fitXY"
         android:src="@drawable/ic_image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:visibility="invisible"
+        android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/objectImage">
@@ -87,10 +86,25 @@
         android:layout_marginHorizontal="24dp"
         android:layout_marginTop="24dp"
         android:fontFamily="@font/poppins"
-        android:text="@string/str_helper"
+        android:text="Foto daun kentang yang ingin di scan, atau pilih satu gambar daun kentang yang ingin discan"
         android:textAlignment="center"
         android:textSize="18sp"
         android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/objectImage" />
+
+    <TextView
+        android:id="@+id/txt_loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Loading..."
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/objectImage" />
@@ -99,13 +113,13 @@
         android:id="@+id/buttonCamera"
         android:layout_width="160dp"
         android:layout_height="60dp"
-        android:layout_marginStart="18dp"
+        android:layout_marginStart="8dp"
         android:layout_marginBottom="32dp"
         android:contentDescription="@string/str_ambilPhoto"
         android:fontFamily="@font/poppins_medium"
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
-        android:text="@string/str_ambilPhoto"
+        android:text="Ambil Photo"
         android:textSize="16sp"
         app:icon="@drawable/ic_camera"
         app:iconPadding="4dp"
@@ -117,13 +131,13 @@
         android:id="@+id/buttonGallery"
         android:layout_width="160dp"
         android:layout_height="60dp"
-        android:layout_marginEnd="18dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="32dp"
         android:contentDescription="@string/str_bukaGaleri"
         android:fontFamily="@font/poppins_medium"
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
-        android:text="@string/str_bukaGaleri"
+        android:text="Buka Galeri"
         android:textSize="16sp"
         app:icon="@drawable/ic_gallery"
         app:iconPadding="4dp"

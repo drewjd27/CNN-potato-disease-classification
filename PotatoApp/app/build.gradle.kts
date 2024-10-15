@@ -7,6 +7,10 @@ android {
     namespace = "com.example.potatoapp"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.potatoapp"
         minSdk = 33
@@ -45,6 +49,13 @@ dependencies {
     implementation(libs.glide)
     implementation(libs.retrofit)
     implementation(libs.retrofit2.converter.gson)
+    implementation(libs.camera.core)
+    implementation(libs.camera.camera2)
+    implementation(libs.camera.lifecycle)
+    implementation(libs.camera.view)
+    implementation(libs.lifecycle)
+    implementation(libs.view.model)
+    implementation(libs.live.data)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

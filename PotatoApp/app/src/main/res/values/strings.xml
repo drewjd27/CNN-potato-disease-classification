@@ -4,4 +4,6 @@
     <string name="str_appName">Aplikasi Pendeteksi Penyakit Tanaman Kentang</string>
     <string name="str_ambilPhoto">Ambil Photo</string>
     <string name="str_bukaGaleri">Buka Galeri</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
