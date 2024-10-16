@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:padding="16dp"
     android:theme="@style/AppTheme"
-    tools:context=".ui.view.MainActivity">
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/h1"
@@ -55,7 +55,7 @@
                 android:layout_height="40dp"
                 android:fontFamily="@font/poppins"
                 android:gravity="center"
-                android:text="Hasil Scan:"
+                android:text="Klasifikasi:"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

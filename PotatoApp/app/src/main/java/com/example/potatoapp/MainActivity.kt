@@ -1,4 +1,4 @@
-package com.example.potatoapp.ui.view
+package com.example.potatoapp
 
 import android.net.Uri
 import android.os.Bundle
@@ -8,7 +8,6 @@ import android.widget.Toast
 import androidx.activity.result.PickVisualMediaRequest
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-import com.example.potatoapp.R
 import com.example.potatoapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

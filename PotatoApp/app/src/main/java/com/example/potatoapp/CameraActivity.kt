@@ -1,4 +1,4 @@
-package com.example.potatoapp.ui.view
+package com.example.potatoapp
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
