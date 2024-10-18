@@ -9,7 +9,6 @@ android {
 
     buildFeatures {
         viewBinding = true
-        buildConfig = true
     }
 
     defaultConfig {
@@ -41,11 +40,13 @@ android {
 }
 
 dependencies {
+    val activity_version = "1.9.3"
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
+    implementation("androidx.activity:activity-ktx:$activity_version")
+    implementation("androidx.activity:activity:$activity_version")
     implementation(libs.material)
-    implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.glide)
     implementation(libs.retrofit)
@@ -59,6 +60,7 @@ dependencies {
     implementation(libs.view.model)
     implementation(libs.live.data)
     implementation(libs.androidx.exifinterface)
+    implementation(libs.coroutines)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

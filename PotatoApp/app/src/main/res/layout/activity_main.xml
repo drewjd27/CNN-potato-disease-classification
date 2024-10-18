@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -10,6 +11,7 @@
     android:theme="@style/AppTheme"
     tools:context=".MainActivity">
 
+    <!-- Judul -->
     <TextView
         android:id="@+id/h1"
         android:layout_width="wrap_content"
@@ -23,6 +25,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- Gambar Objek -->
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/objectImage"
         android:layout_width="250dp"
@@ -35,6 +38,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/h1" />
 
+    <!-- Frame untuk Hasil Klasifikasi -->
     <FrameLayout
         android:id="@+id/frame"
         android:layout_width="wrap_content"
@@ -79,6 +83,7 @@
 
     </FrameLayout>
 
+    <!-- Label Helper -->
     <TextView
         android:id="@+id/label_helper"
         android:layout_width="match_parent"
@@ -94,6 +99,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/objectImage" />
 
+    <!-- Text Loading -->
     <TextView
         android:id="@+id/txt_loading"
         android:layout_width="match_parent"
@@ -109,6 +115,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/objectImage" />
 
+    <!-- Tombol Kamera -->
     <Button
         android:id="@+id/buttonCamera"
         android:layout_width="160dp"
@@ -127,6 +134,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <!-- Tombol Galeri -->
     <Button
         android:id="@+id/buttonGallery"
         android:layout_width="160dp"
