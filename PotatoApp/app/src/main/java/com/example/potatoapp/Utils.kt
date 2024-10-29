@@ -44,7 +44,7 @@ object Utils {
             streamLength = bmpPicByteArray.size
             compressQuality -= 5
             bmpStream.close()
-        } while (streamLength > 2_000_000 && compressQuality > 5)
+        } while (streamLength > 1_200_000 && compressQuality > 5)
 
         // Save the compressed image
         val compressedFile = File(file.parent, "COMPRESSED_${file.name}")
@@ -53,8 +53,8 @@ object Utils {
         }
 
         // Pastikan ukuran file setelah kompresi
-        if (compressedFile.length() > 2_000_000) {
-            throw IOException("Gagal mengompresi gambar di bawah 2MB")
+        if (compressedFile.length() > 1_200_000) {
+            throw IOException("Gagal mengompresi gambar di bawah 1.2MB")
         }
 
         return compressedFile

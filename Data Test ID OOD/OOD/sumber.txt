@@ -1,0 +1,6 @@
+lb-ood-1 = https://spudsmart.com/potato-late-blight-management/
+lb-ood-2 = http://ephytia.inra.fr/en/C/26872/BlightSurveyor-Potato-late-blight
+h-ood-1 = https://www.growerexperts.com/can-i-eat-potato-leaves/
+h-ood-2 = https://t3.ftcdn.net/jpg/02/63/60/20/360_F_263602018_fpamks2pgc4EK9mec30BZ7usz0FXQSjw.jpg
+lb-ood-1 = https://cropserve.co.zw/alternaria-early-blight/
+lb-ood-2 = https://www.ipmimages.org/browse/detail.cfm?imgnum=5606706

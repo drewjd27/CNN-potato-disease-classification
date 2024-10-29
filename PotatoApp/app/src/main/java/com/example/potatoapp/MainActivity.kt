@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "Permissions are granted.", Toast.LENGTH_SHORT).show()
         } else {
             Log.d("PermissionsDebug", "Not all permissions granted.")
-            Toast.makeText(this, "Permissions are required to use this app.", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Not all permissions granted.", Toast.LENGTH_SHORT).show()
         }
     }
 
@@ -118,7 +118,7 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this, CameraActivity::class.java)
                 cameraActivityLauncher.launch(intent)
             } else {
-                Toast.makeText(this, "Permissions are required to use this feature.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Izin diperlukan agar aplikasi dapat berfungsi.", Toast.LENGTH_SHORT).show()
             }
         }
 
