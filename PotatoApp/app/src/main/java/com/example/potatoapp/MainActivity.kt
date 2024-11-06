@@ -1,3 +1,4 @@
+// MainActivity.kt
 package com.example.potatoapp
 
 import android.Manifest

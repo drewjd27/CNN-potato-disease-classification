@@ -1,3 +1,4 @@
+// Utils.kt
 package com.example.potatoapp
 
 import android.content.Context
@@ -31,7 +32,7 @@ object Utils {
         return File.createTempFile("JPEG_${timeStamp}_", ".jpg", storageDir)
     }
 
-    // Compress Image to ensure it's under 2MB
+    // Compress Image to ensure it's under 1.2MB
     fun compressImage(file: File): File {
         val bitmap = BitmapFactory.decodeFile(file.absolutePath) ?: throw IOException("Failed to decode image")
         var compressQuality = 100
@@ -58,5 +59,18 @@ object Utils {
         }
 
         return compressedFile
+    }
+
+    // Convert Uri to Bitmap
+    fun uriToBitmap(uri: Uri, context: Context): Bitmap {
+        val inputStream = context.contentResolver.openInputStream(uri)
+            ?: throw IOException("Cannot open input stream from URI")
+        return BitmapFactory.decodeStream(inputStream)
+            ?: throw IOException("Failed to decode bitmap from URI")
+    }
+
+    // Resize Bitmap
+    fun resizeBitmap(bitmap: Bitmap, width: Int, height: Int): Bitmap {
+        return Bitmap.createScaledBitmap(bitmap, width, height, true)
     }
 }

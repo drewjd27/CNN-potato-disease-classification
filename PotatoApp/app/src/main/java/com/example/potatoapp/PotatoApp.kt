@@ -1,3 +1,4 @@
+// PotatoApp.kt
 package com.example.potatoapp
 
 import android.app.Application
@@ -23,4 +24,3 @@ class PotatoApp : Application() {
         // Inisialisasi lainnya jika diperlukan
     }
 }
-

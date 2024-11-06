@@ -9,6 +9,7 @@ android {
 
     buildFeatures {
         viewBinding = true
+        mlModelBinding = true
     }
 
     defaultConfig {
@@ -40,6 +41,9 @@ android {
 }
 
 dependencies {
+    implementation(libs.tensorflow.lite.support)
+    implementation(libs.tensorflow.lite.metadata)
+    implementation(libs.tensorflow.lite.gpu)
     val activity_version = "1.9.3"
 
     implementation(libs.androidx.core.ktx)

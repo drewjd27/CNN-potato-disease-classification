@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a0c6131-9819-4d19-8f4a-be4127b554f1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/PotatoApp/app/src/main/ml/model_e.tflite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model-development-potatoDisease/convert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model-development-potatoDisease/models/convert.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Early_Blight_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PotatoApp/app/src/main/java/com/example/potatoapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/PotatoApp/app/src/main/java/com/example/potatoapp/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PotatoApp/app/src/main/java/com/example/potatoapp/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/PotatoApp/app/src/main/java/com/example/potatoapp/Utils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/early blight ood.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/early_blight.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/healthy 00d.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/healthy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/late_blight.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PotatoApp/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/PotatoApp/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PotatoApp/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/PotatoApp/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model-development-potatoDisease/training.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/model-development-potatoDisease/training.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +80,16 @@
       <workItem from="1729226570522" duration="1931000" />
       <workItem from="1729834310779" duration="44000" />
       <workItem from="1729916644079" duration="1378000" />
+      <workItem from="1730248802604" duration="859000" />
+      <workItem from="1730269725938" duration="112000" />
+      <workItem from="1730271807887" duration="112000" />
+      <workItem from="1730335395803" duration="1508000" />
+      <workItem from="1730356686390" duration="2935000" />
+      <workItem from="1730469079103" duration="5731000" />
+      <workItem from="1730517759576" duration="4619000" />
+      <workItem from="1730523855831" duration="4398000" />
+      <workItem from="1730537575988" duration="1315000" />
+      <workItem from="1730542832643" duration="2592000" />
     </task>
     <servers />
   </component>
